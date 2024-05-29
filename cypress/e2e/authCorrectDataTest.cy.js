@@ -1,4 +1,4 @@
-function generateRandomEmail() {
+export function generateRandomEmail() {
     const domain = "@gmail.com";
     let randomString = Math.random().toString(36).substring(2, 10);
     randomString = randomString.charAt(0).toUpperCase() + randomString.slice(1); // Make the first character uppercase

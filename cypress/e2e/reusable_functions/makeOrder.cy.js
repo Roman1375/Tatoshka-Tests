@@ -7,7 +7,7 @@ export function makeOrder(productArticle) {
     cy.get('#search_in_search_page_input').type(`${productArticle}{enter}`)
     cy.wait(1000)
     cy.get('.product_image').click()
-    cy.get('tr[data-value-id="21"] > .qty > .qty_block > .plus').click()
+    cy.get('.plus').eq(0).click()
     cy.get('.product_info > .btn_v1').click()
     cy.get('#cart_items_count').should('have.text', '1')
 

@@ -1,6 +1,6 @@
-# Cypress Totoshka Tests
+# Cypress Tatoshka Tests
 
-This project contains some automated tests for [Totoshka test website](https://tatoshka.testoviydomen.fun/), written using [Cypress](https://www.cypress.io/).
+This project contains some automated tests for [Tatoshka test website](https://tatoshka.testoviydomen.fun/), written using [Cypress](https://www.cypress.io/).
 
 ## Requirements
 
